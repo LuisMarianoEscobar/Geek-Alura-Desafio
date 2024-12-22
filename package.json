@@ -1,0 +1,25 @@
+{
+  "name": "geek-alura-desafio",
+  "version": "1.0.0",
+  "description": "Desafio Geek simular api",
+  "main": "scrip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "id,title,price,description,image"
+  },
+  "keywords": [
+    "id",
+    "title",
+    "price",
+    "description",
+    "image"
+  ],
+  "author": "MarianoEscobar",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

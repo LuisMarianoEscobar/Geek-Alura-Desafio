@@ -1,0 +1,15 @@
+.mensaje {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mensaje__imagen {
+    width: 70%;
+}
+
+.mensaje__titulo {
+    color: var(--azul-medio);
+    font-weight: bold;
+    font-size: 4rem; }

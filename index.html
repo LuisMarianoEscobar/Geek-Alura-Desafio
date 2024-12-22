@@ -4,8 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Geek Alura</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
-    <H1>Hola Desafio</H1>
+    <header class="header">
+
+        <nav class="encabezado">
+            
+
+            <div class="encabezado__buscar">
+
+                <input type="search" placeholder="Buscar Producto" id="buscar" class="buscar__input" data-busqueda>
+                <button class="buscar__boton"  data-boton-busqueda>Buscar </button>
+
+            </div>
+
+            <div class="encabezado__iconos">
+                <a href="./paginas/cargar Producto.html" class="encabezado__productos">Cargar Productos</a>
+            </div>
+        </nav>
+
+    </header>
+
+    
+    <H1  class="titulo">Tienda de productos</H1>
+    <section class="card__section">
+    <ul class="ul__card"  alt= "Productos" data-lista>
+    <!--  <li class="card">
+
+        </li>
+       -->   
+    </ul>
+    </section>
+    <footer class="footer">
+<h3>&copy Copyrigth-Mariano Escobar</h3>
+    </footer>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/filtrarProducto.js" type="module"></script>
 </body>
+
 </html>
